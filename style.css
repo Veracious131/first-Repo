@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    scroll-behavior: smooth !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+/* header section */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    box-shadow: 1px 1px;
+    
+}
+
+.header-item a span {
+    position: absolute;
+    left: 90px;
+    color: #4A4A4A;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.header-item:nth-child(2) {
+    display: flex;
+    gap: 10px;
+}
+
+.item2:nth-child(2) img {
+    border-radius: 100%;
+}
+
+/* below header section */
+.belowHeader {
+    background-color: #ff7700;
+    color: #fff;
+    padding: 6px 18px 6px 6px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Roboto, sans-serif;
+}
+
+.belowHeader>a {
+    color: #fff;
+    text-decoration: underline !important;
+}
+/* hero-section */
+.arrow-down{
+    background-color: blue;
+    /* width: 80px; */
+    /* height: 80px; */
+    position: absolute;
+    border: none;
+    border-radius: 100%;
+    top: 390px;
+    left: 650px;
+    scroll-behavior: smooth;
+    padding: 15px;
+    transition-duration: 4s;
+    transition-behavior: smooth;
+}
+.arrow-down:after{
+    transition-duration: 4s;
+    transition-behavior: smooth;
+}
+.hero-section {
+    display: flex;
+}
+
+.hero-item {
+    width: 50%;
+    height: 350px;
+}
+
+.hero-item:nth-child(1) {
+    padding: 45px 20px 40px 100px;
+    background-color: #fafafa;
+}
+
+.hero-item:nth-child(1) h1 {
+    font-size: 44px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-family: Roboto, sans-serif;
+    margin-bottom: 45px;
+}
+
+.hero-item:nth-child(1) p {
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.hero-item:nth-child(2) {
+    background-image: url('images/hero_academy.jpg');
+    background-size: cover;
+}
+
+#analysis-section {
+    /* width: 100%; */
+    background-color: rgb(66, 133, 244);
+    padding: 10px 100px 40px 100px;
+}
+ .analysis-section div h2{
+    padding-top: 25px;
+    margin-bottom: 25px;
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+.analytics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+}
+
+.analytics-items {
+    width: 270px;
+    /* height: 400px; */
+    background-color: white;
+    /* border: 1px solid black; */
+    padding: 20px 20px;
+}
+.analytics-items a{
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Roboto, sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 40px;
+}
+.analytics-items .img1{
+    width: 45px;
+}
+.analytics-items .img2{
+    margin-left: 140px;
+}
+.analytics-items p{
+    padding-bottom: 50px;
+    /* margin-bottom: 40px; */
+    padding-top: 30px;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.87);
+    line-height: 25px;
+
+}
+/* Instructor section */
+.Instructor-section{
+    padding: 10px 100px 40px 100px;
+}
+.Instructor-section h2{
+    padding-top: 25px;
+    margin-bottom: 25px;
+    color: #000;
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+.instructor h3,p{
+    /* display: inline; */
+    padding: 20px 20px;
+}
+.instructor{
+    display: flex;
+    background-color: rgba(225,225,225,0.45);
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 20px -12px;
+
+}
+.Mini-Courses p{
+    padding: 0 0;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+.anchor{
+    display: flex;
+    text-align: center;
+    gap: 20px;
+}
+.anchor div{
+    background-color: rgba(225,225,225,0.60);
+    padding: 15px 15px;
+    box-shadow: 0px 0px 20px -12px;
+}
+.anchor div a p{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.87);
+    
+
+}
+.anchor div a img{
+    width: 50px;
+    margin-bottom: 10px;
+}
+/* Additional section */
+.additional{
+    background-color: rgba(225,225,225,0.60);
+}
+.additional-items{
+    display: flex;
+    text-align: center;
+    padding: 30px 100px 40px 130px;    
+
+}
+.additional h3{
+    padding: 20px 100px;
+}
+.additional-items div a{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Roboto, sans-serif;
+}
+.additional-items div a p{
+    line-height: 20.8px;
+}
+/* bar section */
+.bar{
+    text-align: end;
+    padding: 30px 30px;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Roboto, sans-serif;
+}
+.bar button{
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Roboto, sans-serif;
+    cursor: pointer;
+}
+.bar a{
+    color: rgba(0, 0, 0, 0.87);
+    margin-left: 30px;
+    
+}
+.bar select{
+    border: none;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Roboto, sans-serif;
+    margin-left: 30px;
+    cursor: pointer;
+}
