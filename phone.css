@@ -91,4 +91,7 @@
         padding: 30px 100px 40px 130px;    
     
     }
+    .bar{
+        display: none;
+    }
 }
