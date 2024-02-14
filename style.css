@@ -109,7 +109,7 @@ a {
     background-color: rgb(66, 133, 244);
     padding: 10px 100px 40px 100px;
 }
- .analysis-section div h2{
+ #analysis-section div h2{
     padding-top: 25px;
     margin-bottom: 25px;
     color: #fff;
@@ -166,7 +166,6 @@ a {
     font-weight: 400;
 }
 .instructor h3,p{
-    /* display: inline; */
     padding: 20px 20px;
 }
 .instructor{
