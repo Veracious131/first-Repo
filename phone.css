@@ -94,4 +94,7 @@
     .bar{
         display: none;
     }
+    .arrow-down{
+        display: none;
+    }
 }
